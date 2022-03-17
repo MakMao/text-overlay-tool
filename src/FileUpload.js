@@ -175,8 +175,13 @@ form {
   cursor: pointer;
   border: 1px solid #BBBBBB;
   grid-gap: 0;
-  &:hover {
+}
+
+@media (min-width: 500px){
+  .grid-item{
+    &:hover {
     background-color: rgba(203, 203, 203, 0.6);
+  }
   }
 }
 
