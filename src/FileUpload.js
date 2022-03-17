@@ -65,7 +65,7 @@ export const FileUpload = () => {
         <div className="results-div">
           <h2 className="step-three">Step 3 - Your Results</h2>
         <div className="outcomes">
-          <h5>{gridLength} squares selected containing text</h5>
+          <h5>{gridLength} {gridLength === 1 ? 'square' : 'squares'} selected containing text</h5>
           <h5>{gridLength * 4}% of your image contains text</h5>
             {gridLength === 0 ? (<h5>Please select one or more squares containing text</h5>) :
             gridLength < 6 ? (<h5 className="success">Congratulations! Your image meets the Facebook/Instagram text threshold of 20% or less text.</h5>) : (
