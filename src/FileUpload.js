@@ -203,7 +203,6 @@ form {
   .content {
     display: grid;
     grid-template-columns: 63% 37%;
-    border: 2px solid red;
   }
   .results-div {
     margin: 11.8em 3em 0 3em;
