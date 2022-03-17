@@ -107,6 +107,10 @@ const Container = styled.div `
   margin-bottom: 0.5em;
 }
 
+.results-div{
+  margin-top: 5em;
+}
+
 .label-wrapper {
   display: flex;
   background: rgb(242, 245, 250);
